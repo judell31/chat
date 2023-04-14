@@ -7,5 +7,6 @@ import lombok.Data;
 public class ChatModel {
     private String content;
     private String sender;
+    private String receiver;
     private MessageType type;
 }
